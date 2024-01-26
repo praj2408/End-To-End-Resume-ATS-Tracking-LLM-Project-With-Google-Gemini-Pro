@@ -13,8 +13,8 @@ https://github.com/praj2408/End-To-End-Resume-ATS-Tracking-LLM-Project-With-Goog
 - **Profile Summary:** The system generates a concise profile summary highlighting key strengths and qualifications, facilitating a quick understanding of the candidate's suitability for the position.
 
 ## Requirements
-Python 3.10
-Gemini Pro model (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API)
+- Python 3.10
+- Gemini Pro model api key (Note: Ensure you have the necessary credentials and permissions to access the Gemini Pro API)
 
 ## Installation
 1. Clone the repository:
