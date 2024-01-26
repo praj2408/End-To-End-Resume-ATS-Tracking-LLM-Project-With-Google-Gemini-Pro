@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_extras.add_vertical_space import add_vertical_space
 import google.generativeai as genai
 import os
 import PyPDF2 as pdf
@@ -42,10 +43,21 @@ I want the response as per below structure
 ## streamlit app
 
 with st.sidebar:
-    st.title("Smart ATS")
+    st.title("Smart ATS for Resumes")
+    st.subheader("About")
     st.write("This sophisticated ATS project, developed with Gemini Pro and Streamlit, seamlessly incorporates advanced features including resume match percentage, keyword analysis to identify missing criteria, and the generation of comprehensive profile summaries, enhancing the efficiency and precision of the candidate evaluation process for discerning talent acquisition professionals.")
     
-    st.
+    st.markdown("""
+    - [Streamlit](https://streamlit.io/)
+    - [Gemini Pro](https://deepmind.google/technologies/gemini/#introduction)
+    - [makersuit API Key](https://makersuite.google.com/)
+    - [Github](https://github.com/praj2408/End-To-End-Resume-ATS-Tracking-LLM-Project-With-Google-Gemini-Pro) Repository
+                
+    """)
+    
+    add_vertical_space(5)
+    st.write("Made with ❤ by Prajwal Krishna.")
+    
     
 
 
